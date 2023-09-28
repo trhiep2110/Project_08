@@ -42,20 +42,22 @@
         <script src="./assets/js/scripts.js"></script>
     </head>
     <body>
-        <!-- Header -->
-        <header id="header"></header>
-        <script>
-            load("#header", "./template/header.html");
-        </script>
-
-        <!-- Main -->
-        <h1>Home page</h1>
-
-        <!-- Footer -->
-        <footer id="footer">
+        <div class="container">
+            <!-- Header -->
+            <header id="header"></header>
             <script>
-                load("#footer", "./template/footer.html");
+                load("#header", "./template/header.html");
             </script>
-        </footer>
+
+            <!-- Main -->
+            <h1>Home page</h1>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <script>
+                    load("#footer", "./template/footer.html");
+                </script>
+            </footer>
+        </div>
     </body>
 </html>
